@@ -51,7 +51,7 @@ d$ -> To delete from cursor to the end of a line
 
 dd -> To delete whole line
 
-p -> To replace the character under the cursor
+p  -> To replace the character under the cursor
 
 ```
 ### Format for a Command 
@@ -60,15 +60,15 @@ p -> To replace the character under the cursor
 [number] command object / command [number] object
 
 where: 
-    number -> times repeat
+    number  -> times repeat
     command -> what to do
-    object -> what the command should act upon
+    object  -> what the command should act upon
 ```
 
 
 ### Undo
 ```
-u -> undo
+u      -> undo
 
 Ctrl-R -> undo the undo's 
 ```
@@ -114,13 +114,13 @@ N -> To search for the same phrase in the opposite direction
 ```
 :<command>! <ENTER> -> external command
 
-:!ls -> To see directory
+:!ls            -> To see directory
 
-:w Name -> File that does not exist yet
+:w Name         -> File that does not exist yet
 
-:!rm -> remove the file
+:!rm            -> remove the file
 
 :#,# w FILENAME -> To save part of the file
 
-:r -> To insert the contents of a file
+:r              -> To insert the contents of a file
 ``` 
